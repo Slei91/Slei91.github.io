@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Sedona</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="main-header container">
+		
+			<div class="index-logo">
+				<a class="logo" href="#"><img src="img/logo.png" alt="logo" width="138" height="70"></a>
+			</div>
+			<nav class="main-nav">
+				<ul>
+					<li class="left"><a href="#">ИНФОРМАЦИЯ</a></li>
+					<li class="left"><a href="#">ФОТО И ВИДЕО</a></li>
+					<li class="right"><a href="#">КАРТА ШТАТА</a></li>
+					<li class="right"><a href="#">ГОСТИНИЦЫ</a></li>
+				</ul>
+			</nav>
+		
+	</header>
+	<main class="container clearfix">
+		<div class="main-picture clearfx">
+			<div class="one"><img src="img/index_title.png" alt="index_title" width="458" height="352"></div>
+		</div>
+		<div class="title">
+			<b>СЕДОНА — небольшой городок в АРИЗОНЕ,  заслуживающий большего!</b>
+			<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+		</div>
+		<section class="causes-sec-1 clearfix">
+			<article class="causes1 causes-blue">
+				<h2>НАСТОЯЩИЙ <br>ГОРОДОК</h2>
+				<p>— №1 —</p>
+				<p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+			</article>
+		</section>
+		<section class="recommendations-sec clearfix">
+			<article class="recommendations recommendations-1">
+				<!-- Картинка в css -->
+				<h2>Жилье</h2>
+				<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+			</article>
+			<article class="recommendations recommendations-2">
+				<!-- Картинка в css -->
+				<h2>Еда</h2>
+				<p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+			</article>
+			<article class="recommendations recommendations-3">
+				<!-- Картинка в css -->
+				<h2>Сувениры</h2>
+				<p>Не только китайского, но и местного производства!</p>
+			</article>
+		</section>
+		<section class="causes-sec-2 clearfix">
+			<article class="causes2 causes-blue">
+				<h2>ТАМ ЕСТЬ <br>
+				Мост дьявола</h2>
+				<p>— №2 —</p>
+				<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+			</article>
+		</section>
+		<section class="caues-sec-3-4-5 clearfix">
+			<article class="causes causes-1">
+				<h2>НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+				<p>— №3 —</p>
+				<p> ВСЕ достопримеча- тельности находятся очень близко</p>
+			</article>
+			<article class="causes causes-2">
+				<h2>КРАСИВАЯ ДОРОГА</h2>
+				<p>— №4 —</p>
+				<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем  Не скучно !</p>
+			</article>
+			<article class="causes causes-3">
+				<h2>МАЛО ТУРИСТОВ</h2>
+				<p>— №5 —</p>
+				<p>Большинство едет в гранд каньон и толпится там</p>
+			</article>
+		</section>
+		<div class="seach-block">
+			<div class="seach-block-title">
+				<b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
+				<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+				<div class="seach-field">
+					<button class="btn" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+					<div class="modal-content">
+						<form action="https://echo.htmlacademy.ru" method="post" class="main-seach-form">
+							<div class="form-sec">
+								<label>
+									<p>Дата заезда:</p>
+									<input type="date" name="calendar-in" max="2016-12-20" min="2016-04-10" value="24 АПРЕЛЯ 2016">
+									<div class="calendar"></div>
+								</label>
+							</div>
+							<div class="form-sec">
+								<label>
+									<p>Дата выезда:</p>
+									<input type="date" name="calendar-out" max="2016-12-20" min="2016-01-10" value="4 ИЮЛЯ 2016">
+									<div class="calendar"></div>	
+								</label>
+							</div>
+							<div class="form-sec">
+								<div class="form-sec-person form-sec-person-1">
+									<label>
+										<p>Взрослые:</p>
+										<div class="main-counter">
+											<div class="counter counter-plus"></div>
+											<input type="number" name="adults" min="0" max="99" placeholder="2">
+											<div class="counter counter-minus"></div>	
+										</div>
+									</label>
+								</div>	
+							
+								<div class="form-sec-person form-sec-person-2">
+									<label>
+										<p class="child">Дети:</p>
+										<div class="main-counter">
+											<div class="counter counter-plus"></div>
+											<input type="number" name="child" min="0" max="99" placeholder="0">
+											<div class="counter counter-minus"></div>
+											
+										</div>
+									</label>
+								</div>
+								
+							</div>	
+							<input type="submit" value="Найти">
+						</form>
+					</div>	
+				</div>
+			</div>	
+			<div class="map-container">	
+			</div>	
+		</div>
+	</main>
+	<footer class="main-footer container">
+		<div class="container-f">
+			<section class="footer-visitsedona footer-item">
+				<a href="#">#visitSEDONA</a>
+			</section>
+			<section class="footer-social footer-item">
+				<a class="social-btn social-btn-tw" href="#">Вконтакте</a>
+				<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          		<a class="social-btn social-btn-yt" href="#">Ютуб</a>
+			</section>
+			<section class="footer-copyright footer-item">
+					<span>WEBSITE by</span>
+					<a href="https://htmlacademy.ru/"></a>
+			</section>
+		</div>	
+	</footer>
+</body>
+</html>
