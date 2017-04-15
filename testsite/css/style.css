@@ -1,0 +1,440 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1.2em;
+	color: #555;
+
+	background-color: #fff;
+}
+
+p {
+	padding: 0 0 20px 0;
+
+	line-height: 1.7em;
+}
+
+h1, h2 {
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+
+	font: normal 170% "century gothic", arial;
+
+	color: #000;
+}
+
+h2 {
+	font-size: 140%;
+}
+
+a, a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: #aeb002;
+}
+
+ul {
+	margin: 2px 0 22px 17px;
+}
+
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+
+	line-height: 1.5em;
+}
+
+input[type="search"] {
+      -webkit-appearance: none;
+    }
+
+input[type="text"], input[type="password"], input[type="search"] {
+	 width: 60%;
+	 padding: 8px;
+
+	 color: #5d5d5d;
+}
+
+input[type="search"] {
+	 padding: 5px;
+}
+
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+
+hr {
+	border: solid 1px #f3f3f3;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header {
+	min-width: 900px;
+	min-height: 177px;
+
+	font-size: 0.8em;
+
+	background: darkslateblue;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 880px;
+	padding-bottom: 40px;
+}
+
+.logo h1, .logo h2 {
+	margin: 0 0 0 9px;
+
+	font: normal 300% 'century gothic', arial, sans-serif;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
+	padding: 22px 0 0 0;
+
+	text-decoration: none;
+	letter-spacing: 0.1em;
+
+	color: #fff;
+}
+
+.logo_text h2 {
+	padding: 4px 0 0 0;
+
+	font-size: 0.9em;
+
+	color: #999;
+}
+
+.menubar {
+	width: 900px;
+	min-height: 46px;
+}
+
+ul.menu {
+	float: right;
+
+	list-style: none;
+}
+
+ul.menu li {
+	display: inline-block;
+	padding: 0 0 0 9px;
+	margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+	display: block;
+	height: 20px;
+	padding: 6px 35px 5px 28px;
+
+	font: normal 100% 'trebuchet ms', sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+ul.menu li.selected a {
+	color: #aeb002;
+}
+
+ul.menu li a:hover {
+	color: #e4ec04;
+}
+
+main {
+	margin-top:20px ;
+
+	background-color: #fff;
+}
+
+aside {
+	float: right;
+	width: 224px;
+}
+
+.sidebar {
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+
+	border: solid 1px #f2f2f2;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+
+.btn {
+	padding: 8px;
+
+	background-color: #fff;
+
+	cursor: pointer;
+}
+
+.sidebar h2 {
+	color: #136cb2;
+}
+
+.lables_passreg_text {
+	margin-top: 3%;
+	margin-left: 2%;
+
+	font-size: 0.7em;
+}
+
+.sidebar ul {
+	margin: 0;
+
+	list-style: none;
+}
+
+.sidebar ul li {
+	margin: 0;
+}
+
+.sidebar .rating_sidebar {
+	float: right;
+}
+
+.content {
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+
+	text-align: left;
+}
+
+.content a {
+	text-decoration: none;
+}
+
+.films_block {
+	margin-bottom: 5%;
+}
+
+.films_block img {
+
+	width: 22%;
+
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+}
+
+.posts .posts_content {
+	font-size: 0.8em;
+}
+
+                                 	/* стили контента страницы show */
+
+.info_film_page {
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.info_film_page .label {
+	font-size: 1.2em;
+}
+
+.info_film_page .value {
+	margin-right: 3%;
+
+	font-size: 1em;
+	color: #49945a;
+}
+
+.description_film {
+	margin-bottom: 15%;
+}
+
+.description_film img {
+	float: left;
+	margin-right: 2%;
+
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+}
+
+.reviews {
+	margin-bottom: 4%;
+
+	font-size: 0.9em;
+}
+
+.reviews .review_name {
+	padding: 1%;
+
+	color: white;
+
+	background-color: #7268ad;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.reviews .review_text {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+
+.send {
+	margin-bottom: 4%;
+}
+
+.send input[type="text"], textarea {
+	border: solid 1px #c3c3c3;
+	margin-bottom: 2%;
+}
+
+.send input[type="text"] {
+	width: 98%
+}
+
+.send textarea {
+	width: 624px;
+	height: 200px;
+}
+
+.send input[type="submit"] {
+	padding: 3%;
+
+	color: white;
+
+	background-color: #7268ad;
+	border-radius: 5px;
+}
+
+								/* конец стилей страницы  show */
+
+								/* стили контента страницы contacts */
+
+.contacts input[type="text"], textarea {
+	border: solid 1px #c3c3c3;
+	margin-bottom: 2%;
+}				
+
+.contacts input[type="text"] {
+	width: 98%
+}		
+
+.contacts textarea {
+	width: 624px;
+	height: 200px;
+}
+
+.contacts input[type="submit"] {
+	padding: 3%;
+
+	color: white;
+
+	background-color: #7268ad;
+	border-radius: 5px;
+}	
+
+								/* Конец стилей страницы contacts */
+
+								/* Начало стилей info_films */
+
+.info_film {
+	margin-bottom: 5%;
+	padding: 5%;
+	min-height: 270px;
+
+	background-color: #f9f9f9;
+}
+
+.info_film img {
+	float: left;
+	margin-right: 2%;
+	width: 25%;
+
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+}
+
+.button {
+	padding: 2%;
+	float: right;
+	margin-top: 5%;
+
+	font-size: 0.8em;
+	color: #fff;
+	
+	border-radius: 5px;
+	background-color: #7268ad;
+
+	clear: both;
+}
+
+.button a {
+	color: #fff;
+}
+
+								/* Конец стилей info_films */
+
+								/* Начало стилей raitings */
+
+table {
+	width: 100%;
+	border:solid 1px #f4f4f4;
+}
+
+td {
+	padding: 2%;
+	border: solid 1px #f4f4f4;
+}
+
+td img {
+	width: 60px;
+
+	vertical-align: middle;
+}
+
+.center {
+	text-align: center;
+}
+
+.raiting {
+	font-weight: bold;
+}
+
+								/* Конец стилей raitings */
+
+footer {
+	width: 100%;
+	min-width: 900px;
+	min-height: 100px;
+	padding: 28px 0 5px 0;
+
+	text-align: center;
+	color: #a8aa94;
+
+	background-color: darkslateblue;
+}
+
+footer a {
+	color: #a8aa94;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer p {
+	padding: 0 0 10px 0;
+}
+
