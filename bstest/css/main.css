@@ -1,0 +1,148 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: 'Open Sans',"RobotoRegular", sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+h2 {
+	font-size: 2em;
+}
+.main-header{
+	background-color: #000;
+}
+.color {
+	background-color: yellow;
+}
+.gray {
+	background-color: #b12424;
+}
+.logo img{
+	padding-top: 15px;
+    padding-left: 10px;
+}
+
+.main_nav ul {
+	padding: 0;
+	margin: 0;
+	float: right; 
+	margin-top: 30px;
+	margin-right: 20px;
+
+	list-style-type: none;
+}
+
+.main_nav li {
+	display: inline-block;
+}
+
+.main_nav li a {
+	display: block;
+	padding: 0 15px;
+
+	color: #fff;
+	font-size: 13px;
+	font-family: "RobotoRegular", sans-serif;
+	font-style: normal;
+}
+
+.main_nav li a:hover {
+	background-color: grey;
+}
+
+.button {
+	background-color: transparent;
+	border: none;
+}
+
+.button .fa {
+	font-size: 25px;
+	color: #fff;
+}
+
+.main_title  {
+	position: relative;
+
+	margin-top: 100px;
+	margin-bottom: 230px;
+}
+
+.main_title h1,
+.main_title p {
+	margin: 0;
+}
+
+.main_title p {
+	font-size: 10px;
+	font-style: normal;
+}
+.main_title img {
+	position: absolute;
+	left: 32%;
+	top: 160px;
+}
+
+.main_content {
+	margin-bottom: 20px;
+}
+
+.main_content h2,
+.main_content p,
+.contacts_block h2,
+.contacts_block p {
+	margin: 0;
+}
+
+.main_content p,
+.contacts_block p {
+	font-size: 11px;
+}
+.contacts_block p {
+	margin-bottom: 20px;
+}
+
+.contacts_block {
+	background-color: #000;
+	color: #fff;
+}
+
+.copyright {
+	margin-bottom: 10px;
+
+	text-align: right;
+}
+.copyright span {
+	padding-right: 5px;
+
+	font-size: 8px;
+	font-style: normal;
+}
+.copyright a {
+	font-size: 8px;
+	font-style: normal;
+	text-decoration: underline;
+	color: blue;
+}
