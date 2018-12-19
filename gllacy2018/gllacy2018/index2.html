@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw5iVCBPIpdZLzYEx0xh8LrnHm2vGjRWM"></script>
 </head>
 <body>
 	<div class="color-wrap">
@@ -170,7 +171,7 @@
 				</div>
 			</div>	
 
-			<div class="map"> <!--на ширину всего вьюпорта-->
+			<div class="map" id="map"> <!--на ширину всего вьюпорта-->
 				<div class="container">
 					<img src="img/map.jpg" width="1200" height="430">
 					<section class="site-contacts">
@@ -208,24 +209,25 @@
 				<section class="main-info">
 					<h2 class="visually-hidden">Информация и документация</h2>
 					<ul class="infolinks-list">
-						<li><a href="#">Для поставщиков</a></li>
-						<li><a href="#">Наши документы</a></li>
-						<li><a href="#">О производстве</a></li>
-						<li><a href="#">Экологические стандарты</a></li>
+						<li><a href="#" class="link heart">Для поставщиков</a></li>
+						<li><a href="#" class="link">Наши документы</a></li>
+						<li><a href="#" class="link">О производстве</a></li>
+						<li><a href="#" class="link">Экологические стандарты</a></li>
 					</ul>
 				</section>
 
 				<section class="mfr">
 					<h2 class="visually-hidden">Сделано в HTML Academy</h2>
-					<a href="#">
-						<img src="img/logo-htmlacademy-small.svg" alt="HTML Academy" width="108" height="36">
+					<a href="#" class="htmlacademy-logo">
+						<img src="img/logo-htmlacademy-small.svg" alt="HTML Academy" width="112" height="36">
 					</a>
-					<p>
-						Сделано в <a href="#">HTML Academy</a> c 2017
+					<p class="mfr-description">
+						Сделано в <a href="#" class="htmlacademy-link link">HTML Academy</a> c 2017
 					</p>
 				</section>
 			</div>	
 		</footer>
-	</div>			
+	</div>	
+	<script type="text/javascript" src="js/googleMap.js"></script>		
 </body>
 </html>
