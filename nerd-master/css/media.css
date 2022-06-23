@@ -1,0 +1,318 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+	.slider {
+		width: 100%;
+		height: auto;
+
+		padding-bottom: 20px;
+	}
+
+	.slider {
+		background-position: right !important;
+		-webkit-background-size: 50% !important;
+		background-size: 50% !important;
+	}
+
+	.toggle {
+		bottom: 10px;
+	}
+
+	.paginator {
+		text-align: center;
+	}
+
+	.item {
+		width: 47%;
+		height: auto;
+		margin-right: 6%;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.slider_content {
+		width: 50%;
+
+		font-size: 1em;
+	}
+	.slider_content .title {
+		font-size: 1.6em;
+		line-height: 1.2em;
+	}
+
+	.cards {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+
+	.features {
+		text-align: center;
+	}
+
+	.row .col-md-3:nth-child(2n) .partners:after {
+	display: none;
+	}
+	
+	.social_description,
+	.social {
+		text-align: center;
+	}
+
+	.social_description h3 {
+		font-size: 1.7em;
+	}
+
+	.social {
+		padding-top: 20px;
+	}
+
+	.write_us {
+		width: 740px;
+		margin-left: -370px;
+	}
+
+	.form_sec_left,
+	.form_sec_right {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.form_sec_left input[type="text"],
+	.form_sec_right input[type="text"],
+	.form_sec_area textarea {
+		width: 100%;
+	}
+
+	.close {
+		right: 55px;
+		top: 65px;
+	}
+
+	.catalog_price {
+		display: none;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header {
+		padding-top: 20px;
+	}
+
+	.logo {
+		margin: 0 auto 20px;
+
+	}
+
+	.basket {
+		margin-top: 0;
+	}
+	
+	.main_nav ul {
+		display: none;
+		margin-left: 35px;
+		width: 100px;
+	}
+	
+	.main_nav ul li {
+		display: block;
+		text-align: left;
+	}
+
+	.main_nav ul li a{
+		margin: 0;
+		padding: 5px;
+		padding-top: 0;
+	}
+	
+	.main_nav button {
+		float: left;
+
+		font-size: 20px;
+	}
+	
+
+	.slider {
+		background-image:none !important;
+		background-color: pink ;
+
+		padding-bottom: 40px;
+		margin-bottom: 20px;
+
+	}
+	
+	.slider_content {
+		width: 100%;
+
+		text-align: center;
+	}
+	.slider_content .btn {
+		width: 180px ;
+	}
+	.toggle {
+		bottom: 2%;
+	}
+
+	.cards {
+		margin: 0 auto;
+
+		text-align: center;
+	}
+
+	.about_company .title {
+		font-size: 2em;
+	}
+
+	.partners img {
+		width: 60%;
+	}
+
+	
+	.form_btn {
+		margin-left: 64px;
+	}
+
+	.map_container {
+		width: 100%;
+		height: 416px; 
+
+		background-color: #f1f1f1;
+	}
+
+	#map {
+		display: none;
+	}
+
+	.overlay {
+		left: 50%;
+		margin-left: -160px;
+	}
+
+	.write_us {
+		width: 460px;
+		margin-left: -230px;
+		padding: 20px 30px;
+	}
+
+	.write_us .form_btn {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.write_us .close {
+		right: 30px;
+		top: 40px;
+	}
+
+	.items {
+		text-align: center;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.features .nerds {
+		width: 100%;
+	}
+	.cards {
+		width: 100%;
+	}
+	.card_img {
+		margin: 0 auto;
+	}
+	.card_img img {
+		width: 100%;
+	}
+
+
+	.form_btn {
+		margin: 0;
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.write_us .close {
+		top: 15px;
+		right: 15px;
+	}
+
+	.write_us {
+		width: 280px;
+		margin-left: -140px;
+	}
+
+	.write_us_title {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+
+	.form_sec_left,
+	.form_sec_right,
+	.form_sec_area textarea {
+		margin-bottom: 15px;
+	}
+
+	.catalog_title h1 {
+		font-size: 42px;
+	}
+
+	.item {
+		width: 360px;
+		margin-right: 0;
+	}
+
+	.sorting li {
+		margin-left: 15px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+	.item {
+		width: 280px;
+	}
+
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.main_nav ul{
+		display: block ! important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
